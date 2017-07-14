@@ -2,7 +2,7 @@
 FROM python:3.5
 
 # Install the extra python libraries we'll be using
-RUN pip install nibabel scikit-image pyconextnlp
+RUN pip install nibabel scikit-image pycontextnlp
 
 # Copy our algorithm script into the image
 COPY ct_segmenter.py /ct_segmenter.py
